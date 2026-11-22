@@ -5,109 +5,142 @@
 }
 
 body {
-    background-color: #ffd8ec;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a4a4a;
 }
 
 header {
+    padding: 20px 40px;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-    background-color: #ec78b8;
-    padding: 10px 20px;
+    background-color: #4a4a4a;
+    color: #fef2f0;
+    align-items: center;
+}
+
+#logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 #menu {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-#menu a {
-    padding: 5px 10px;
-    background-color: #373c6dd6;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-#menu a:hover {
-    background-color: #797eacd6;
-}
-
-#logo-menu img {
-    height: 50px;
-}
-
-main {
-    margin: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-#diferencial, #escola, #sobre {
-    background-color: #ffffff9a;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-h1 {
-    text-align: center;
-}
-
-#sobre {
-    display: flex;
-    background-image: url(../assets/img/escola.png);
-    background-color: #00000040;
-    background-blend-mode: darken;
-    min-height: 90vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-    align-items: center;
-}
-
-#sobre-texto {
-    margin-left: 50%;
-}
-
-#sobre-texto h1 {
-    font-size: 80px;
-}
-
-#sobre-texto p {
-    font-size: 20px;
-    line-height: 1.75;
-}
-
-#diferenciais {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-ul {
-    list-style-type: none;
+#menu a {
+    text-decoration: none;
+    color: #fef2f0;
+    padding-bottom: 5px;
+}
+
+#menu a:hover {
+    color: #E2B3BD;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+#sinal {
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+#inicio {
+    padding: 40px;
+    background-color: #F6D5CE;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+#introducao {
+    width: 100%;
+}
+
+#letras-pequenas {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding: 10px 0px;
+}
+
+#botoes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+#botoes a {
+    padding: 15px;
+    background-color: #4a4a4a;
+    color: #fef2f0;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#disciplinas-inicio {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 2;
+}
+
+#disciplina-01 {
+    background-color: #FFFAF9;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#disciplina-02 {
+    margin-left: 50px;
+    background-color: #4a4a4a;
+    padding: 40px;
+    border-radius: 20px;
+    color: #fef2f0;
+}
+
+#pequeno {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: small;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 
 footer {
+    padding: 20px 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
     gap: 20px;
-    background-color: #ec78b8;
-    padding: 20px;
-    color: white;
+    background-color: #4a4a4a;
+    color: #fef2f0;
+    align-items: center;
 }
 
 footer a {
+    color: #fef2f0;
     text-decoration: none;
-    color: white;
+    padding-bottom: 5px;
 }
 
 footer a:hover {
-    color:#373c6dd6
+    border-bottom: solid;
+    border-width: 2px;
+    color: #E2B3BD;
 }
