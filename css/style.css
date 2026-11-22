@@ -122,6 +122,60 @@ h2 {
     font-size: 40px;
 }
 
+#disciplinas {
+    padding: 40px;
+    background-color: #FFF3F1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#disciplinas-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.disciplina {
+    width: 50%;
+    padding: 40px;
+    background-color: #FFFAF9;
+    border: solid 1px #E2B3BD;
+    border-radius: 20px;
+    line-height: 2;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.disciplina p, #outras-disciplinas p {
+    margin-bottom: 30px;
+}
+
+.disciplina a, #outras-disciplinas a {
+    padding: 10px 15px;
+    background-color: #4a4a4a;
+    color: #fef2f0;
+    border-radius: 10px;
+    text-decoration: none; 
+}
+
+#outras-disciplinas {
+    width: 100%;
+    padding: 40px;
+    background-color: #FFFAF9;
+    border: solid 1px #E2B3BD;
+    border-radius: 20px;
+    line-height: 2;
+}
+
 footer {
     padding: 20px 40px;
     display: flex;
@@ -130,7 +184,7 @@ footer {
     gap: 20px;
     background-color: #4a4a4a;
     color: #fef2f0;
-    align-items: center;
+    align-items: flex-start;
 }
 
 footer a {
