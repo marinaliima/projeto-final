@@ -19,24 +19,24 @@ header {
     align-items: center;
 }
 
-#logo {
+.logo {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
-#menu {
+.menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: #fef2f0;
     padding-bottom: 5px;
 }
 
-#menu a:hover {
+.menu a:hover {
     color: #E2B3BD;
     border-bottom: solid;
     border-width: 2px;
@@ -54,7 +54,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
     justify-content: space-between;
 }
 
@@ -82,7 +82,7 @@ h1 {
 }
 
 #botoes a {
-    padding: 15px;
+    padding: 10px 15px;
     background-color: #4a4a4a;
     color: #fef2f0;
     border-radius: 10px;
@@ -101,14 +101,15 @@ h1 {
     background-color: #FFFAF9;
     padding: 40px;
     border-radius: 20px;
+    margin-right: 80px;
 }
 
 #disciplina-02 {
-    margin-left: 50px;
     background-color: #4a4a4a;
     padding: 40px;
     border-radius: 20px;
     color: #fef2f0;
+    margin-left: 80px;
 }
 
 #pequeno {
@@ -117,15 +118,32 @@ h1 {
     font-size: small;
 }
 
+#disciplina-01 a { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+#disciplina-02 a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-decoration: none;
+    color: #fef2f0
+}
+
+#disciplinas-inicio section:hover {
+    transform: translateX(-20px);
+}
+
 h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
 }
 
 #disciplinas {
-    padding: 40px;
+    padding: 100px 40px;
     background-color: #FFF3F1;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -176,25 +194,88 @@ h3 {
     line-height: 2;
 }
 
+#noticias {
+    background-color: #E2B3BD;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#noticias-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.noticia {
+    width: 40%;
+    padding: 20px;
+    background-color: #FFFAF9;
+    border-radius: 20px;
+    line-height: 2;  
+}
+
+.noticia p {
+    margin-bottom: 30px;
+}
+
+.noticia a {
+    padding: 10px 15px;
+    background-color: #4a4a4a;
+    color: #fef2f0;
+    border-radius: 10px;
+    text-decoration: none; 
+}
+
+#acessar-noticias a, #acessar-disciplinas a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+#acessar-noticias a:hover, #acessar-disciplinas a:hover {
+    border-bottom: solid;
+    border-width: 1.5px;
+}
+
+#conteudo {
+    background-color: #FFF3F1;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#conteudos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.conteudo {
+    width: 50%;
+    padding: 20px;
+    background-color: #FFFAF9;
+    border: solid 1px #E2B3BD;
+    border-radius: 20px;
+    line-height: 2;
+}
+
 footer {
     padding: 20px 40px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 20px;
     background-color: #4a4a4a;
     color: #fef2f0;
     align-items: flex-start;
-}
-
-footer a {
-    color: #fef2f0;
-    text-decoration: none;
-    padding-bottom: 5px;
-}
-
-footer a:hover {
-    border-bottom: solid;
-    border-width: 2px;
-    color: #E2B3BD;
 }
