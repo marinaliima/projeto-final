@@ -34,6 +34,7 @@ header {
     text-decoration: none;
     color: #FAEFD1;
     padding-bottom: 5px;
+    transition: 500ms;
 }
 
 .menu a:hover {
@@ -80,6 +81,14 @@ h1 {
     flex-direction: row;
     gap: 20px;
     align-items: center;
+}
+
+#botoes a {
+    transition: 500ms;
+}
+
+#botoes a:hover {
+    scale: 1.05;
 }
 
 #botao-1 {
@@ -144,6 +153,10 @@ h1 {
     font-weight: bold;
 }
 
+#disciplinas-inicio section {
+    transition: 1000ms;
+}
+
 #disciplinas-inicio section:hover {
     transform: translateX(-20px);
 }
@@ -172,6 +185,8 @@ h2 {
 }
 
 .disciplina {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     padding: 40px;
     background-color: #FFF9E8;
@@ -195,9 +210,20 @@ h3 {
     color: #fef2f0;
     border-radius: 10px;
     text-decoration: none; 
+    transition: 500ms;
+}
+
+.disciplina a:hover, #outras-disciplinas a:hover {
+    scale: 1.05;
+}
+
+#outras-disciplinas a:hover {
+    scale: 1.025;
 }
 
 #outras-disciplinas {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     padding: 40px;
     background-color: #FFF9E8;
@@ -226,6 +252,8 @@ h3 {
 }
 
 .noticia {
+    display: flex;
+    flex-direction: column;
     width: 40%;
     padding: 20px;
     background-color: #FFF9E8;
@@ -235,7 +263,7 @@ h3 {
 }
 
 .noticia p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .noticia a {
@@ -244,6 +272,11 @@ h3 {
     color: #FBF0D2;
     border-radius: 10px;
     text-decoration: none;
+    transition: 500ms;
+}
+
+.noticia a:hover {
+    scale: 1.05;
 }
 
 #acessar-noticias a {
@@ -281,6 +314,16 @@ h3 {
     border: solid 1px #E4D4A8;
     border-radius: 20px;
     line-height: 2;
+}
+
+#conteudos article {
+    display: flex;
+    flex-direction: column;
+    transition: 500ms;
+}
+
+#conteudos article:hover {
+    scale: 1.05;
 }
 
 #acessar-disciplinas a {
