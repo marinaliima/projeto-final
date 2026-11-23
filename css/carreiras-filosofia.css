@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000633;
+}
+
+header {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #000633;
+    color: #FAEFD1;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #FAEFD1;
+    padding-bottom: 5px;
+    transition: 500ms;
+}
+
+.menu a:hover {
+    color: #455a8b;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+#sinal {
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+footer {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #000633;
+    color: #FAEFD1;
+    align-items: flex-start;
+}
