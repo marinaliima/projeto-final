@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #4a4a4a;
+    color: #000633;
 }
 
 header {
@@ -14,8 +14,8 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #4a4a4a;
-    color: #fef2f0;
+    background-color: #000633;
+    color: #FAEFD1;
     align-items: center;
 }
 
@@ -32,12 +32,12 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: #fef2f0;
+    color: #FAEFD1;
     padding-bottom: 5px;
 }
 
 .menu a:hover {
-    color: #E2B3BD;
+    color: #455a8b;
     border-bottom: solid;
     border-width: 2px;
 }
@@ -49,7 +49,8 @@ header {
 
 #inicio {
     padding: 40px;
-    background-color: #F6D5CE;
+    background-color: #0D1B42;
+    color: #FBF0D2;
     height: 100vh;
     display: flex;
     flex-direction: row;
@@ -81,9 +82,17 @@ h1 {
     align-items: center;
 }
 
-#botoes a {
+#botao-1 {
     padding: 10px 15px;
-    background-color: #4a4a4a;
+    background-color: #FAEFD1;
+    color: #0D1B42;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#botao-2 {
+    padding: 10px 15px;
+    border: solid 2px #fef2f0;
     color: #fef2f0;
     border-radius: 10px;
     text-decoration: none;
@@ -98,17 +107,18 @@ h1 {
 }
 
 #disciplina-01 {
-    background-color: #FFFAF9;
+    background-color: #FFF9E8;
     padding: 40px;
     border-radius: 20px;
+    color: #000633;
     margin-right: 80px;
 }
 
 #disciplina-02 {
-    background-color: #4a4a4a;
+    background-color: #223A70;
     padding: 40px;
     border-radius: 20px;
-    color: #fef2f0;
+    color: #FFF9E8;
     margin-left: 80px;
 }
 
@@ -122,14 +132,16 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     text-decoration: none;
-    color: #4a4a4a;
+    color: #000633;
+    font-weight: bold;
 }
 
 #disciplina-02 a {
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
     text-decoration: none;
-    color: #fef2f0
+    color: #FFF9E8;
+    font-weight: bold;
 }
 
 #disciplinas-inicio section:hover {
@@ -143,7 +155,7 @@ h2 {
 
 #disciplinas {
     padding: 100px 40px;
-    background-color: #FFF3F1;
+    background-color: #FBF0D2;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,8 +174,8 @@ h2 {
 .disciplina {
     width: 50%;
     padding: 40px;
-    background-color: #FFFAF9;
-    border: solid 1px #E2B3BD;
+    background-color: #FFF9E8;
+    border: solid 1px #E4D4A8;
     border-radius: 20px;
     line-height: 2;
 }
@@ -179,7 +191,7 @@ h3 {
 
 .disciplina a, #outras-disciplinas a {
     padding: 10px 15px;
-    background-color: #4a4a4a;
+    background-color: #223A70;
     color: #fef2f0;
     border-radius: 10px;
     text-decoration: none; 
@@ -188,14 +200,15 @@ h3 {
 #outras-disciplinas {
     width: 100%;
     padding: 40px;
-    background-color: #FFFAF9;
-    border: solid 1px #E2B3BD;
+    background-color: #FFF9E8;
+    border: solid 1px #E4D4A8;
     border-radius: 20px;
     line-height: 2;
 }
 
 #noticias {
-    background-color: #E2B3BD;
+    background-color: #223A70;
+    color: #FBF0D2;
     padding: 100px 40px;
     display: flex;
     flex-direction: column;
@@ -215,7 +228,8 @@ h3 {
 .noticia {
     width: 40%;
     padding: 20px;
-    background-color: #FFFAF9;
+    background-color: #FFF9E8;
+    color: #000633;
     border-radius: 20px;
     line-height: 2;  
 }
@@ -226,14 +240,14 @@ h3 {
 
 .noticia a {
     padding: 10px 15px;
-    background-color: #4a4a4a;
-    color: #fef2f0;
+    background-color: #0D1B42;
+    color: #FBF0D2;
     border-radius: 10px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-#acessar-noticias a, #acessar-disciplinas a {
-    color: #4a4a4a;
+#acessar-noticias a {
+    color: #FBF0D2;
     text-decoration: none;
 }
 
@@ -243,7 +257,7 @@ h3 {
 }
 
 #conteudo {
-    background-color: #FFF3F1;
+    background-color: #FBF0D2;
     padding: 100px 40px;
     display: flex;
     flex-direction: column;
@@ -262,11 +276,16 @@ h3 {
 
 .conteudo {
     width: 50%;
-    padding: 20px;
-    background-color: #FFFAF9;
-    border: solid 1px #E2B3BD;
+    padding: 40px;
+    background-color: #FFF9E8;
+    border: solid 1px #E4D4A8;
     border-radius: 20px;
     line-height: 2;
+}
+
+#acessar-disciplinas a {
+    color: #000633;
+    text-decoration: none;
 }
 
 footer {
@@ -275,7 +294,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
-    background-color: #4a4a4a;
-    color: #fef2f0;
+    background-color: #000633;
+    color: #FAEFD1;
     align-items: flex-start;
 }
