@@ -19,6 +19,13 @@ header {
     align-items: center;
 }
 
+img {
+    width: 450px;
+    height: 300px;
+    object-fit:cover;
+    border-radius: 12px;
+    margin: 25px 0;
+}
 .logo {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -47,6 +54,118 @@ header {
     border-bottom: solid;
     border-width: 2px;
 }
+
+#introducao {
+    display: flex;
+    flex: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+footer {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #000633;
+    color: #FAEFD1;
+    align-items: flex-start;
+}
+.conteudo {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.conteudo h2, h3 {
+    color: #14264b;
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 8px 20px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+
+.conteudo p {
+    color: #505b70;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.conteudo hr {
+    border: none;
+    border-top: 1px solid #dce1eb;
+    margin: 20px 0;
+}
+#introducao {
+    background-color: #223A70;
+    color: #FBF0D2;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+
+#introducao-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    background-color: #FFF9E8;
+    color: #000633;
+    border-radius: 20px;
+    line-height: 2;  
+}
+
+
+.noticia p {
+    margin-bottom: 20px;
+}
+
+
+.noticia a {
+    padding: 10px 15px;
+    background-color: #0D1B42;
+    color: #FBF0D2;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+
+.noticia a:hover {
+    scale: 1.05;
+}
+
+
+#acessar-introducao a {
+    color: #FBF0D2;
+    text-decoration: none;
+}
+
+
+#acessar-introducao a:hover, #acessar-disciplinas a:hover {
+    border-bottom: solid;
+    border-width: 1.5px;
+}
+
 
 footer {
     padding: 20px 40px;
