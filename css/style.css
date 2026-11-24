@@ -64,7 +64,7 @@ header {
     width: 100%;
 }
 
-#letras-pequenas {
+.letras-pequenas {
     text-transform: uppercase;
     font-size: small;
 }
