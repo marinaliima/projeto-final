@@ -48,6 +48,59 @@ header {
     border-width: 2px;
 }
 
+#quemSomos {
+    background-color: #0D1B42;
+    color: #FFFFFF;
+}
+
+#objetivo {
+    background-color: #FBF0D2;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    background-color: #FFF9E8;
+    border-radius: 10px;
+    border:  1px solid #E4D4A8;
+
+
+}
+
+#equipe {
+    background-color: #223A70;
+    color: #FBF0D2;
+
+}
+
+.galeria {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 16%;
+}
+
+sup {
+    text-transform: uppercase;
+}
+
+
+
 footer {
     padding: 20px 40px;
     display: flex;
