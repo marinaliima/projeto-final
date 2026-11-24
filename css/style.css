@@ -24,36 +24,7 @@ header {
     font-size: 20px;
 }
 
-#menu a {
-    padding: 10px;
-    background-color: #373c6dd6;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-#menu a:hover {
-    background-color: #797eacd6;
-}
-
-#logo-menu img {
-    height: 50px;
-}
-
-main {
-    margin: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-#diferencial, #escola, #equipe {
-    background-color: #ffffff9a;
-    padding: 20px;
-    border-radius: 15px;
-}
-
-#diferenciais {
+.menu {
     display: flex;
     flex-direction: row;
     gap: 20px;
