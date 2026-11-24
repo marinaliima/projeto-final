@@ -47,6 +47,69 @@ header {
     border-bottom: solid;
     border-width: 2px;
 }
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding: 10px 0px;
+}
+
+
+#noticias {
+    background-color: #223A70;
+    color: #FBF0D2;
+    padding: 100px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#noticias-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px;
+    background-color: #FFF9E8;
+    color: #000633;
+    border-radius: 20px;
+    line-height: 2;  
+}
+
+.noticia p {
+    margin-bottom: 20px;
+}
+
+.noticia a {
+    padding: 10px 15px;
+    background-color: #0D1B42;
+    color: #FBF0D2;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.noticia a:hover {
+    scale: 1.05;
+}
+
+#acessar-noticias a {
+    color: #FBF0D2;
+    text-decoration: none;
+}
+
+#acessar-noticias a:hover, #acessar-disciplinas a:hover {
+    border-bottom: solid;
+    border-width: 1.5px;
+}
 
 footer {
     padding: 20px 40px;
