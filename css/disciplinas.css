@@ -7,6 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000633;
+    background-color: #FBF0D2;
 }
 
 header {
@@ -48,6 +49,67 @@ header {
     border-width: 2px;
 }
 
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.disciplinas-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.disciplina {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 40px;
+    border-radius: 20px;
+    line-height: 2;
+    align-items: center;
+    
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.disciplina a {
+    padding: 15px;
+    background-color: #223A70;
+    color: #fef2f0;
+    border-radius: 40px;
+    text-decoration: none; 
+    transition: 500ms;
+    text-align: center;
+}
+.disciplina img {
+    width: 45%;
+    border-radius: 50%;
+    background-color: #FFF9E8;
+    aspect-ratio: 1 / 1;
+}
+
+.disciplina a:hover, #outras-disciplinas a:hover {
+    scale: 1.05;
+}
+
+#disciplinas {
+    padding: 40px;
+}
+
+.disciplina h3 {
+    color:#000633;
+}
+
 footer {
     padding: 20px 40px;
     display: flex;
@@ -57,4 +119,5 @@ footer {
     background-color: #000633;
     color: #FAEFD1;
     align-items: flex-start;
+    
 }
