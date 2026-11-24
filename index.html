@@ -2,59 +2,132 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8"/>
-        <title>Portal de Matérias</title>
+        <title>Portal de Inglês e Filosofia</title>
         <link rel="stylesheet" href="css/style.css"/>
     </head>
 
     <body>
         <header>
-            <section id="logo-menu">
-                <img src="assets/img/logo.png" alt="Logo da Escola"/>
+            <section class="logo">
+                <p>Inglês e Filosofia</p>
             </section>
-            <section id="menu">
-                <a href="index.html">Home</a>
+            <section class="menu">
+                <a href="index.html" id="sinal">Home</a>
                 <a href="pages/disciplinas.html">Disciplinas</a>
-                <a href="pages/contato.html">Contato</a>
-            </section>
-            <section>
+                <a href="pages/noticias.html">Notícias</a>
+                <a href="pages/sobre.html">Sobre</a>
             </section>
         </header>
 
         <main>
-            <section id="sobre">
-                <section id="sobre-texto">
-                    <h1>Sobre Nós</h1>
-                    <p>O Colégio WINXS é uma instituição de ensino que tem como propósito oferecer uma educação de qualidade, unindo conhecimento, inovação e desenvolvimento pessoal. Acreditamos que cada aluno possui talentos e habilidades únicas que merecem ser valorizados e incentivados. Por isso, buscamos proporcionar um ambiente acolhedor, moderno e preparado para estimular a criatividade, o pensamento crítico e a vontade de aprender. Nosso compromisso é formar estudantes responsáveis, confiantes e preparados para os desafios do futuro, valorizando o respeito, a dedicação e a construção de novas oportunidades. No WINXS, acreditamos que a educação é muito mais do que ensinar: é inspirar, transformar e abrir caminhos para grandes conquistas.</p>
+            <section id="inicio">
+                <section id="introducao">
+                    <span id="letras-pequenas">SENAI Valinhos • Portal de Matérias</span>
+                    <h1>Duas formas de ampliar o seu mundo.</h1>
+                    <p>Estude Inglês e Filosofia, acompanhe notícias, descubra carreiras e se prepare para estágio e vestibulares em um só lugar.</p>
+                    <section id="botoes">
+                        <a href="#disciplinas" id="botao-1">Ver disciplinas do site ↓</a>
+                        <a href="#noticias" id="botao-2">Últimas notícias ↓</a>
+                    </section>
+                </section>
+                <section id="disciplinas-inicio">
+                    <section id="disciplina-01">
+                        <p id="pequeno">Disciplina 01</p>
+                        <a href="pages/home-ingles.html">Inglês</a>
+                    </section>
+                    <section id="disciplina-02">
+                        <p id="pequeno">Disciplina 02</p>
+                        <a href="pages/home-filosofia.html">Filosofia</a>
+                    </section>
                 </section>
             </section>
-            <section id="diferencial">
-                <h1>Diferenciais</h1>
-                <section id="diferenciais">
-                    <section>
-                        <img src="assets/img/destaque.png" alt="Foto de Destaque">
+
+            <section id="disciplinas">
+                <section>
+                    <h2>Disciplinas</h2>
+                </section>
+                <section id="disciplinas-row">
+                    <article class="disciplina">
+                        <h3>Inglês</h3>
+                        <p>[Descrição da disciplina de Inglês.]</p>
+                        <a href="pages/home-ingles.html">Acessar conteúdo</a>
+                    </article>
+                    <article class="disciplina">
+                        <h3>Filosofia</h3>
+                        <p>[Descrição da disciplina de Filosofia.]</p>
+                        <a href="pages/home-filosofia.html">Acessar conteúdo</a>
+                    </article>
+                </section>
+                <section id="outras-disciplinas">
+                    <h3>Conheça todas as disciplinas</h3>
+                    <p>Clique aqui para ver todas as disciplinas da nossa escola.</p>
+                    <a href="pages/disciplinas.html">Acessar página de disciplinas</a>
+                </section>
+            </section>
+
+            <section id="noticias">
+                <section>
+                    <h2>Últimas notícias</h2>
+                </section>
+                <section id="noticias-row">
+                    <article class="noticia">
+                        <span id="letras-pequenas">Notícia 01 • [Categoria]</span>
+                        <h3>[Título da notícia]</h3>
+                        <p>[Resumo curto da notícia.]</p>
+                        <a href="pages/noticia-01.html">Ver notícia completa ↗</a>
+                    </article>
+                    <article class="noticia">
+                        <span id="letras-pequenas">Notícia 02 • [Categoria]</span>
+                        <h3>[Título da notícia]</h3>
+                        <p>[Resumo curto da notícia.]</p>
+                        <a href="pages/noticia-01.html">Ver notícia completa ↗</a>
+                    </article>
+                    <article class="noticia">
+                        <span id="letras-pequenas">Notícia 03 • [Categoria]</span>
+                        <h3>[Título da notícia]</h3>
+                        <p>[Resumo curto da notícia.]</p>
+                        <a href="pages/noticia-01.html">Ver notícia completa ↗</a>
                     </section>
-                    <section>
-                        <ul>
-                            <li>a</li>
-                            <li>b</li>
-                            <li>c</li>
-                            <li>d</li>
-                            <li>e</li>
-                            <li>f</li>
-                            <li>g</li>
-                            <li>h</li>
-                        </ul>
-                    </section>
+                </article>
+                <section id="acessar-noticias">
+                    <a href="pages/noticias.html">Ver todas as 25 notícias →</a>
+                </section>
+            </section>
+
+            <section id="conteudo">
+                <section>
+                    <h2>Conteúdo</h2>
+                    <p>Continue navegando pelo site para saber mais sobre:</p>
+                </section>
+                <section id="conteudos">
+                    <article class="conteudo">
+                        <h3>Dicas</h3>
+                        <p>Dicas de estudo, vestibulares e conteúdos complementares.</p>
+                    </article>
+                    <article class="conteudo">
+                        <h3>Carreiras</h3>
+                        <p>Carreiras ligadas a todos as disciplinas da escola.</p>
+                    </article>
+                    <article class="conteudo">
+                        <h3>Estágio</h3>
+                        <p>Informações de estágio relacionadas às matérias do Ensino Médio.</p>
+                    </article>
+                </section>
+                <section id="acessar-disciplinas">
+                    <a href="pages/disciplinas.html">Acessar disciplinas →</a>
                 </section>
             </section>
         </main>
 
         <footer>
-            <a href="">Endereço</a>
-            <p>|</p>
-            <a href="">Instagram</a>
-            <p>|</p>
-            <a href="index.html">Voltar ao Início</a>
+            <section class="logo">
+                <p>Inglês e Filosofia</p>
+            </section>
+            <section class="menu">
+                <a href="">Endereço</a>
+                <a href="">Instagram</a>
+                <a href="index.html">Voltar ao Início</a>
+            </section>
         </footer>
     </body>
 </html>
