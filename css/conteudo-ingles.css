@@ -7,6 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000633;
+    background-color: #FBF0D2;
 }
 
 header {
@@ -46,6 +47,130 @@ header {
 #sinal {
     border-bottom: solid;
     border-width: 2px;
+}
+
+.letras-pequenas {
+    text-transform: uppercase;
+    font-size: small;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    padding: 10px 0px;
+}
+
+#inicio {
+    padding: 100px 40px;
+    background-color: #0D1B42;
+    color: #FBF0D2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    justify-content: space-between;
+}
+
+#introducao {
+    width: 75%;
+}
+
+#introducao p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+#botoes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.botao {
+    padding: 10px 15px;
+    border: solid 2px #FAEFD1;
+    color: #FAEFD1;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: 500ms;
+}
+
+.botao:hover {
+    scale: 1.05;
+}
+
+#vocabulary, #grammar, #verb-tenses, #reading, #listeningnspeaking, #writing {
+    margin: 80px 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 20px;
+    background-color: #FFF9E8;
+    border-radius: 20px;
+    border: solid 1.5px #E4D4A8;
+}
+
+.explicacao {
+    width: 50%;
+}
+
+.numero {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color: #E4D4A8;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.explicacao p, .explicacao ul {
+    line-height: 2;
+}
+
+.explicacao ul {
+    margin: 10px 0px;
+    margin-left: 40px;
+}
+
+.exemplo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #223A70;
+    color: #FBF0D2;
+    justify-content: center;
+    align-items: start;
+    padding: 30px;
+    border-radius: 15px;
+    border: solid 1.5px #E4D4A8;
+}
+
+.ex-uppercase {
+    text-transform: uppercase;
+    font-size: smaller;
+    letter-spacing: 1.25px;
+}
+
+dt {
+    margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+dd {
+    font-size: 15px;
+}
+
+#email p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    font-size: 25px;
 }
 
 footer {
